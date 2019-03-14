@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{41666903-A9B2-4341-B93B-B555CE2AF5D1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Petshop.UI.My.MyApplication</StartupObject>
+    <RootNamespace>Petshop.UI</RootNamespace>
+    <AssemblyName>Petshop.UI</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Petshop.UI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Petshop.UI.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>bichineo 64.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\frmAgendaEvento.Designer.vb">
+      <DependentUpon>frmAgendaEvento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmAgendaEvento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAnimal.Designer.vb">
+      <DependentUpon>frmAnimal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmAnimal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Busca.Designer.vb">
+      <DependentUpon>Busca.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Busca.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmEspecie.Designer.vb">
+      <DependentUpon>frmEspecie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmEspecie.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmAgenda.Designer.vb">
+      <DependentUpon>frmAgenda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmAgenda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmCliente.Designer.vb">
+      <DependentUpon>frmCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmProduto.Designer.vb">
+      <DependentUpon>frmProduto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmProduto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmServico.Designer.vb">
+      <DependentUpon>frmServico.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmServico.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmVendas.Designer.vb">
+      <DependentUpon>frmVendas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmVendas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Pagamento.Designer.vb">
+      <DependentUpon>Pagamento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Pagamento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPesquisa.Designer.vb">
+      <DependentUpon>frmPesquisa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmPesquisa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmPrincipal.Designer.vb">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Produto.Designer.vb">
+      <DependentUpon>Produto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Produto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Profissional.Designer.vb">
+      <DependentUpon>Profissional.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Profissional.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\frmRaca.Designer.vb">
+      <DependentUpon>frmRaca.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\frmRaca.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Usuario.Designer.vb">
+      <DependentUpon>Usuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Usuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Venda.Designer.vb">
+      <DependentUpon>Venda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Venda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\frmAgenda.resx">
+      <DependentUpon>frmAgenda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAgendaEvento.resx">
+      <DependentUpon>frmAgendaEvento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmAnimal.resx">
+      <DependentUpon>frmAnimal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Busca.resx">
+      <DependentUpon>Busca.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmCliente.resx">
+      <DependentUpon>frmCliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmEspecie.resx">
+      <DependentUpon>frmEspecie.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmProduto.resx">
+      <DependentUpon>frmProduto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmServico.resx">
+      <DependentUpon>frmServico.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmVendas.resx">
+      <DependentUpon>frmVendas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Pagamento.resx">
+      <DependentUpon>Pagamento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPesquisa.resx">
+      <DependentUpon>frmPesquisa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Produto.resx">
+      <DependentUpon>Produto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Profissional.resx">
+      <DependentUpon>Profissional.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\frmRaca.resx">
+      <DependentUpon>frmRaca.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Usuario.resx">
+      <DependentUpon>Usuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Venda.resx">
+      <DependentUpon>Venda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Schedule_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Checkout_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_People_96px_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Cat_Footprint_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Product_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Increase_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_People_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Cat_Footprint_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Back_Arrow_32px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Forward_Button_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Schedule_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Save_32px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Dog_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Cat_Footprint_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Cat_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Product_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Back_Arrow_64pxverde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Forward_Button_64pxverde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pETSHOW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Login_Rounded_Up_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Lock_64px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_User_64px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Search_Property_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Search_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Management_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Card_Payment_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Calendar_64px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Plus_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Minus_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Checkout_96px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Shopping_Cart_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PetShop.BLL\PetShop.BLL.vbproj">
+      <Project>{c263bfb2-910e-44b9-9972-f7ee8ae75251}</Project>
+      <Name>PetShop.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PetShop.Entities\PetShop.Entities.vbproj">
+      <Project>{f5a61e8e-10b9-4052-8240-f42ac7693643}</Project>
+      <Name>PetShop.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bichineo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Checked_32px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_Cancel_32px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bichineo 64.ico" />
+    <None Include="Resources\icons8_Money_32px.png" />
+    <None Include="Resources\icons8_Account_32px.png" />
+    <None Include="Resources\icons8_Paid_32px.png" />
+    <None Include="Resources\icons8_Card_Payment_32px.png" />
+    <None Include="Resources\icons8_Customer_32px.png" />
+    <None Include="Resources\icons8_Card_Payment_64px1.png" />
+    <None Include="Resources\icons8_People_96px_21.png" />
+    <None Include="Resources\icons8_Checkout_64px.png" />
+    <None Include="Resources\icons8_Syringe_64px_1.png" />
+    <None Include="Resources\icons8_Syringe_96px.png" />
+    <None Include="Resources\icons8_Login_Rounded_Up_32px1.png" />
+    <None Include="Resources\icons8_Cancel_32px_11.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

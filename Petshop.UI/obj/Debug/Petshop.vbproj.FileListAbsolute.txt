@@ -1,0 +1,45 @@
+C:\Users\victo\documents\visual studio 2017\Projects\Petshop\Petshop\bin\Debug\Petshop.exe.config
+C:\Users\victo\documents\visual studio 2017\Projects\Petshop\Petshop\bin\Debug\Petshop.exe
+C:\Users\victo\documents\visual studio 2017\Projects\Petshop\Petshop\bin\Debug\Petshop.pdb
+C:\Users\victo\documents\visual studio 2017\Projects\Petshop\Petshop\bin\Debug\Petshop.xml
+C:\Users\victo\documents\visual studio 2017\Projects\Petshop\Petshop\bin\Debug\MetroFramework.Design.dll
+C:\Users\victo\documents\visual studio 2017\Projects\Petshop\Petshop\bin\Debug\MetroFramework.dll
+C:\Users\victo\documents\visual studio 2017\Projects\Petshop\Petshop\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\victo\documents\visual studio 2017\Projects\Petshop\Petshop\obj\Debug\Petshop.vbprojResolveAssemblyReference.cache
+C:\Users\victo\documents\visual studio 2017\Projects\Petshop\Petshop\obj\Debug\Petshop.Petshop.resources
+C:\Users\victo\documents\visual studio 2017\Projects\Petshop\Petshop\obj\Debug\Petshop.Resources.resources
+C:\Users\victo\documents\visual studio 2017\Projects\Petshop\Petshop\obj\Debug\Petshop.vbproj.GenerateResource.Cache
+C:\Users\victo\documents\visual studio 2017\Projects\Petshop\Petshop\obj\Debug\Petshop.exe
+C:\Users\victo\documents\visual studio 2017\Projects\Petshop\Petshop\obj\Debug\Petshop.xml
+C:\Users\victo\documents\visual studio 2017\Projects\Petshop\Petshop\obj\Debug\Petshop.pdb
+C:\Users\victo\documents\visual studio 2017\Projects\Petshop\Petshop\obj\Debug\Petshop.Agenda.resources
+C:\Users\victo\documents\visual studio 2017\Projects\Petshop\Petshop\obj\Debug\Petshop.Cliente.resources
+C:\Users\victo\documents\visual studio 2017\Projects\Petshop\Petshop\obj\Debug\Petshop.Animal.resources
+C:\Users\victo\documents\visual studio 2017\Projects\Petshop\Petshop\obj\Debug\Petshop.Especie.resources
+C:\Users\victo\documents\visual studio 2017\Projects\Petshop\Petshop\obj\Debug\Petshop.ProdutoServico.resources
+C:\Users\victo\documents\visual studio 2017\Projects\Petshop\Petshop\obj\Debug\Petshop.Raca.resources
+C:\Users\victo\documents\visual studio 2017\Projects\Petshop\Petshop\obj\Debug\Petshop.Login.resources
+C:\Users\victo\documents\visual studio 2017\Projects\Petshop\Petshop\obj\Debug\Petshop.Usuario.resources
+C:\Users\ricar\Desktop\Petshop\Petshop\bin\Debug\Petshop.exe.config
+C:\Users\ricar\Desktop\Petshop\Petshop\obj\Debug\Petshop.exe
+C:\Users\ricar\Desktop\Petshop\Petshop\obj\Debug\Petshop.xml
+C:\Users\ricar\Desktop\Petshop\Petshop\obj\Debug\Petshop.pdb
+C:\Users\ricar\Desktop\Petshop\Petshop\bin\Debug\Petshop.exe
+C:\Users\ricar\Desktop\Petshop\Petshop\bin\Debug\Petshop.pdb
+C:\Users\ricar\Desktop\Petshop\Petshop\bin\Debug\Petshop.xml
+C:\Users\ricar\Desktop\Petshop\Petshop\bin\Debug\MetroFramework.Design.dll
+C:\Users\ricar\Desktop\Petshop\Petshop\bin\Debug\MetroFramework.dll
+C:\Users\ricar\Desktop\Petshop\Petshop\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\ricar\Desktop\Petshop\Petshop\obj\Debug\Petshop.vbprojResolveAssemblyReference.cache
+C:\Users\ricar\Desktop\Petshop\Petshop\obj\Debug\Petshop.Agenda.resources
+C:\Users\ricar\Desktop\Petshop\Petshop\obj\Debug\Petshop.Animal.resources
+C:\Users\ricar\Desktop\Petshop\Petshop\obj\Debug\Petshop.Busca.resources
+C:\Users\ricar\Desktop\Petshop\Petshop\obj\Debug\Petshop.Cliente.resources
+C:\Users\ricar\Desktop\Petshop\Petshop\obj\Debug\Petshop.Especie.resources
+C:\Users\ricar\Desktop\Petshop\Petshop\obj\Debug\Petshop.Login.resources
+C:\Users\ricar\Desktop\Petshop\Petshop\obj\Debug\Petshop.Petshop.resources
+C:\Users\ricar\Desktop\Petshop\Petshop\obj\Debug\Petshop.ProdutoServico.resources
+C:\Users\ricar\Desktop\Petshop\Petshop\obj\Debug\Petshop.Raca.resources
+C:\Users\ricar\Desktop\Petshop\Petshop\obj\Debug\Petshop.Usuario.resources
+C:\Users\ricar\Desktop\Petshop\Petshop\obj\Debug\Petshop.Resources.resources
+C:\Users\ricar\Desktop\Petshop\Petshop\obj\Debug\Petshop.vbproj.GenerateResource.Cache
